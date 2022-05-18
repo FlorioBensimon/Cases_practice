@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f8f9ae66f4384f96a7f9d9930c2aaa18 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/marslan390/BeautifyMarker/leaflet-beautify-marker-icon.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/marslan390/BeautifyMarker/leaflet-beautify-marker-icon.min.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_f8f9ae66f4384f96a7f9d9930c2aaa18" ></div>
+        
+</body>
+<script>    
+    
+            var map_f8f9ae66f4384f96a7f9d9930c2aaa18 = L.map(
+                "map_f8f9ae66f4384f96a7f9d9930c2aaa18",
+                {
+                    center: [40.735, -74.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7d75a4afae5d4ec18ac6b5ff5bc2f257 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f8f9ae66f4384f96a7f9d9930c2aaa18);
+        
+    
+            var marker_23df8d3ddc54469db7a6ad82a16164e9 = L.marker(
+                [40.736494, -73.997044],
+                {}
+            ).addTo(map_f8f9ae66f4384f96a7f9d9930c2aaa18);
+        
+    
+            var beautify_icon_7b72fdd8025e4290aa9ca841622f4ab0 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#FFF", "borderColor": "red", "borderWidth": 2, "innerIconStyle": "margin-top:0px;", "isAlphaNumericIcon": true, "spin": false, "text": 1, "textColor": "red"}
+            )
+            marker_23df8d3ddc54469db7a6ad82a16164e9.setIcon(beautify_icon_7b72fdd8025e4290aa9ca841622f4ab0);
+        
+    
+        var popup_491dc88fcd064983b52a433d654a5345 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10b66367aabf4d6ebec9c682d10b7aec = $(`<div id="html_10b66367aabf4d6ebec9c682d10b7aec" style="width: 100.0%; height: 100.0%;">W 13 St & 6 Ave</div>`)[0];
+            popup_491dc88fcd064983b52a433d654a5345.setContent(html_10b66367aabf4d6ebec9c682d10b7aec);
+        
+
+        marker_23df8d3ddc54469db7a6ad82a16164e9.bindPopup(popup_491dc88fcd064983b52a433d654a5345)
+        ;
+
+        
+    
+    
+            var marker_afa5f02138cf4023af57bc332a6ef39e = L.marker(
+                [40.729039, -73.994046],
+                {}
+            ).addTo(map_f8f9ae66f4384f96a7f9d9930c2aaa18);
+        
+    
+            var beautify_icon_1643bbd00e014e188fe01ac3b26a676b = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#FFF", "borderColor": "red", "borderWidth": 2, "innerIconStyle": "margin-top:0px;", "isAlphaNumericIcon": true, "spin": false, "text": 2, "textColor": "red"}
+            )
+            marker_afa5f02138cf4023af57bc332a6ef39e.setIcon(beautify_icon_1643bbd00e014e188fe01ac3b26a676b);
+        
+    
+        var popup_5583f46733fb432aaea3b9bb88eeb1e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c769c13d4cbe48c98f3aeb5a30c6bfa3 = $(`<div id="html_c769c13d4cbe48c98f3aeb5a30c6bfa3" style="width: 100.0%; height: 100.0%;">Washington Pl & Broadway</div>`)[0];
+            popup_5583f46733fb432aaea3b9bb88eeb1e1.setContent(html_c769c13d4cbe48c98f3aeb5a30c6bfa3);
+        
+
+        marker_afa5f02138cf4023af57bc332a6ef39e.bindPopup(popup_5583f46733fb432aaea3b9bb88eeb1e1)
+        ;
+
+        
+    
+    
+            var marker_b2b863afd7e949a3aa9a8103c1172ee4 = L.marker(
+                [40.729554, -73.980572],
+                {}
+            ).addTo(map_f8f9ae66f4384f96a7f9d9930c2aaa18);
+        
+    
+            var beautify_icon_b8e7411a6e4d4398afb820b5da4df08a = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#FFF", "borderColor": "red", "borderWidth": 2, "innerIconStyle": "margin-top:0px;", "isAlphaNumericIcon": true, "spin": false, "text": 3, "textColor": "red"}
+            )
+            marker_b2b863afd7e949a3aa9a8103c1172ee4.setIcon(beautify_icon_b8e7411a6e4d4398afb820b5da4df08a);
+        
+    
+        var popup_e93334cb75a64e30b8b9b89a9f524836 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a602c9018ccb4f3e92cb7c90c7d91c66 = $(`<div id="html_a602c9018ccb4f3e92cb7c90c7d91c66" style="width: 100.0%; height: 100.0%;">E 13 St & Avenue A</div>`)[0];
+            popup_e93334cb75a64e30b8b9b89a9f524836.setContent(html_a602c9018ccb4f3e92cb7c90c7d91c66);
+        
+
+        marker_b2b863afd7e949a3aa9a8103c1172ee4.bindPopup(popup_e93334cb75a64e30b8b9b89a9f524836)
+        ;
+
+        
+    
+    
+            var marker_7dada900d4c04102a935fb1fdef6bac3 = L.marker(
+                [40.732233, -73.9889],
+                {}
+            ).addTo(map_f8f9ae66f4384f96a7f9d9930c2aaa18);
+        
+    
+            var beautify_icon_d7ad3175f4ec42f2bc6df89072861563 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#FFF", "borderColor": "red", "borderWidth": 2, "innerIconStyle": "margin-top:0px;", "isAlphaNumericIcon": true, "spin": false, "text": 4, "textColor": "red"}
+            )
+            marker_7dada900d4c04102a935fb1fdef6bac3.setIcon(beautify_icon_d7ad3175f4ec42f2bc6df89072861563);
+        
+    
+        var popup_49ce7b948d054df5b3460804ff288b8c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e72bcb4aac4f4b21b2ce62153bb71b53 = $(`<div id="html_e72bcb4aac4f4b21b2ce62153bb71b53" style="width: 100.0%; height: 100.0%;">E 12 St & 3 Ave</div>`)[0];
+            popup_49ce7b948d054df5b3460804ff288b8c.setContent(html_e72bcb4aac4f4b21b2ce62153bb71b53);
+        
+
+        marker_7dada900d4c04102a935fb1fdef6bac3.bindPopup(popup_49ce7b948d054df5b3460804ff288b8c)
+        ;
+
+        
+    
+    
+            var marker_89727c5793054adbbde33bfd4a0166f0 = L.marker(
+                [40.72917, -73.998102],
+                {}
+            ).addTo(map_f8f9ae66f4384f96a7f9d9930c2aaa18);
+        
+    
+            var beautify_icon_2e37cba58aa9484fa020f9d34af4c1dc = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#FFF", "borderColor": "red", "borderWidth": 2, "innerIconStyle": "margin-top:0px;", "isAlphaNumericIcon": true, "spin": false, "text": 5, "textColor": "red"}
+            )
+            marker_89727c5793054adbbde33bfd4a0166f0.setIcon(beautify_icon_2e37cba58aa9484fa020f9d34af4c1dc);
+        
+    
+        var popup_eff5d8c5f53e48eea4d6236842f3bc27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7115b272cf8646e986032cfe71669a77 = $(`<div id="html_7115b272cf8646e986032cfe71669a77" style="width: 100.0%; height: 100.0%;">LaGuardia Pl & W 3 St</div>`)[0];
+            popup_eff5d8c5f53e48eea4d6236842f3bc27.setContent(html_7115b272cf8646e986032cfe71669a77);
+        
+
+        marker_89727c5793054adbbde33bfd4a0166f0.bindPopup(popup_eff5d8c5f53e48eea4d6236842f3bc27)
+        ;
+
+        
+    
+</script>
